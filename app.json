@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Memet",
-    "slug": "Memet",
+    "slug": "memet",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.saadnaveed.memet"
     },
     "android": {
       "package": "com.saadnaveed.memet",
@@ -31,6 +32,7 @@
     }
   }
 }
+
 
 
 
