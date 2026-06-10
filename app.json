@@ -5,24 +5,16 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
+    // ... बाकी सेटिंग्स वैसी ही रहने दें ...
+
     "android": {
+      "package": "com.saadnaveed.memet",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
+    
     "extra": {
       "eas": {
         "projectId": "c57fe50a-3df3-45d5-b64a-26344676de8a"
