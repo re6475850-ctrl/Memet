@@ -1,29 +1,31 @@
 {
-  "cli": {
-    "version": ">= 10.0.0"
-  },
-  "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk"
+  "expo": {
+    "name": "Memet",
+    "slug": "memet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/adaptive-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.saadnaveed.memet",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       }
     },
-    "preview": {
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk"
-      }
+    "web": {
+      "favicon": "./assets/adaptive-icon.png"
     },
-    "production": {
-      "android": {
-        "buildType": "apk"
+    "extra": {
+      "eas": {
+        "projectId": "c57fe50a-3df3-45d5-b64a-26344676de8a"
       }
     }
-  },
-  "submit": {
-    "production": {}
   }
 }
 
