@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Memet App",
+    "name": "Memet",
     "slug": "Memet",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,24 +12,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.re6475850.memet"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.re6475850.memet"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "87508493-470b-46a4-bb9f-ef5b77eaeb82"
+        "projectId": "c57fe50a-3df3-45d5-b64a-26344676de8a"
       }
     }
   }
 }
+
+
 
